@@ -1,0 +1,28 @@
+.about-slider{
+   background: url(img/bg.jpg) no-repeat center 15%;
+   padding: 170px 0;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+}
+.about-slider::after{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background: rgba(255,255,255,.8);
+   z-index: -1;
+}
+.about-slider-content h1 {
+	font-size: 45px;
+	font-weight: 400;
+}
+.home-to-about li{
+   font-weight: 600;
+   font-size: 17px;
+}
+.home-to-about li a{
+   color: #e83b3e;
+}

@@ -1,0 +1,56 @@
+.contact-slider{
+   background: url(img/bg.jpg) no-repeat center 15%;
+   padding: 170px 0;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+}
+.contact-slider::after{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background: rgba(255,255,255,.8);
+   z-index: -1;
+}
+.contact-slider-content h1 {
+	font-size: 45px;
+	font-weight: 400;
+}
+.home-to-contact li{
+   font-weight: 600;
+   font-size: 17px;
+}
+.home-to-contact li a{
+   color: #e83b3e;
+}
+
+.map-section iframe{
+   margin-bottom: -4px;
+}
+
+.contact-write-us form textarea{
+   height: 160px;
+}
+
+.contact-finix{}
+.how-to-contact{}
+.how-contact-icon {
+	font-size: 30px;
+   color: #e83b3e;
+}
+.how-contact-text{}
+.how-contact-text h4{}
+.how-contact-text .mon-thurs{}
+.how-contact-text .mon-thurs p{
+   color: #606060;
+}
+.how-contact-text .mon-thurs a{
+   color: #606060;
+   transition: 400ms;
+}
+.how-contact-text .mon-thurs a:hover{
+   color: #e83b3e;
+}
